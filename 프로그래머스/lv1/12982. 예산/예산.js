@@ -5,7 +5,6 @@ function solution(d, budget) {
 
   for (let i = 0; i < d.length; i++) {
     answer++;
-    console.log(sum, answer);
     sum += d[i];
 
     if (sum > budget) answer--;
